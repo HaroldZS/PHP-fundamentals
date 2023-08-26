@@ -1,7 +1,10 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
-require_once __DIR__ . '/../calculator.php'; // Esto es necesario para cargar la clase Calculator
+// php vendor/bin/phpunit tests/FirstTest.php
+// php vendor/bin/phpunit --testdox tests/FirstTest.php
+
+require_once __DIR__ . '/../Calculator.php'; // Esto es necesario para cargar la clase Calculator
 
 class FirstTest extends TestCase {
     public function testAdd() {
